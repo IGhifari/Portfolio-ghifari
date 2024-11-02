@@ -1,0 +1,93 @@
+.story{
+    width: 780px;
+}
+.timeline{
+    width: 100%;
+    margin-left: 5rem;
+    
+}
+.profile{
+    padding-left: 200px;
+}
+.contact-me{
+    padding-top: 100px;
+}
+@media screen and (max-width: 770px) {
+        .tampilan{
+            width:  100%;
+            flex-direction: row;
+        }
+        nav{
+            width: 100%;
+        }
+        nav .social{
+            display: none;
+        }
+        nav .navbar{
+            display: none;
+        }
+        .img1 img{
+            display: none;
+        }
+        
+        .logo h1{
+            display: block;
+        }
+        nav .menu{
+            display: block;
+        }
+        .profile {
+            padding-left: 20px;  
+            text-align: left;  
+            width: 100%;  
+        }
+    
+        
+        .profile h3 {
+            font-size: 1.2rem; 
+        }
+    
+        .profile h1 {
+            font-size: 1.8rem; 
+        }
+    
+        .profile h1.typeit {
+            font-size: 1.5rem;  
+        }
+    
+        .profile p {
+            font-size: 1rem;  
+        }
+        .text-2xl {
+            height: auto;
+        }
+
+        .contact{
+            display: block !important;
+        }
+        .contact .isi{
+            margin-top: 7px;
+            width: 100%;
+            height: auto;
+        }
+        .contact .data-contact{
+            margin-top: 0;
+        }
+        footer{
+            margin-top: 300px;
+        }
+        .timeline{
+            margin-left: 1rem;
+            padding-right: 15px;
+        }
+        .story{
+            padding-top: 20px;
+            padding-left: 5px;
+            width: 100%;
+        }
+        .contact-me{
+            padding-top: 230px;
+        }
+    }
+    
+    

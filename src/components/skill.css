@@ -1,0 +1,26 @@
+.swiper {
+    width: 300px;
+    height: 440px;
+}
+
+.swiper-slide {
+    display: flex;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+    background-color:  #191919;
+    }
+    
+    .swiper-slide:nth-child(2n) {
+        background-color:  #191919;
+    }
+    
+    .swiper-slide:nth-child(3n) {
+        background-color:  #191919;
+    }
+    
+    .swiper-slide:nth-child(4n) {
+        background-color:  #191919;
+    }
