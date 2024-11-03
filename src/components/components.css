@@ -1,13 +1,23 @@
+
+body{
+    overflow-x: hidden;
+}
+.contact {
+    flex-wrap: wrap;
+  }
+  
 .story{
-    width: 780px;
+    width: 100%;
+    max-width: 780px;
 }
 .timeline{
     width: 100%;
-    margin-left: 5rem;
-
+    margin-left: 1rem;
+    padding-right: 0;
 }
 .profile{
-    padding-left: 200px;
+    padding-left: 50px;  
+    padding-top: 50px;
 }
 .contact-me{
     padding-top: 100px;
@@ -27,7 +37,7 @@
             display: none;
         }
         nav h2{
-            display: none;
+            display: block;
         }
         nav .navbar{
             display: none;
@@ -83,7 +93,7 @@
             height: auto;
         }
         .contact .data-contact{
-            margin-top: 0;
+            margin-top: 1rem;
         }
         footer{
             margin-top: 300px;
@@ -91,6 +101,7 @@
         .timeline{
             margin-left: 1rem;
             padding-right: 15px;
+            width: 100%;
         }
         .story{
             padding-top: 20px;
