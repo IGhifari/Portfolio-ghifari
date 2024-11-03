@@ -33,7 +33,7 @@
         <section className="h-screen  text-white flex text-center justify-center mt-44 ">
           <Story/>
         </section>
-        <section id="AcademicBackground" className="h-screen  text-white flex items-center justify-center  ">
+        <section id="AcademicBackground" className="h-screen  text-white flex items-center justify-center academic-background ">
           <AcademicBackground/>
         </section>
         <section id="contact" className="h-screen  text-white  mt-64">

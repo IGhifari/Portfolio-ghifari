@@ -26,8 +26,7 @@ const Story = () =>{
             </h1>
             <h1 className='mb-3 text-sm'>STORY OF MY FILE</h1>
             <div  className='text-left text-sm story'>
-            <p className='mb-6'><span className='text-blue-500'>M.Ghifari Bima khadafi </span>( born in Lampung on June 5 2007 ), is a <span className='text-blue-500'>Front-End Developer</span>
-                who has a strong interest in developing user interfaces and user experiences (UI/UX).  
+            <p className='mb-6'><span className='text-blue-500'>M.Ghifari Bima khadafi </span>( born in Lampung on June 5 2007 ), is a <span className='text-blue-500'>Web Developer </span>who has a strong interest in developing user interfaces and user experiences (UI/UX).  
             My interest in the world of technology grew while studying at SMKN 1 Cibinong majoring in Software Engineering (RPL), where I studied various programming languages ​​and web technology.</p>
             <p className='mb-6'>I am the second child of two brothers. My basic education was completed in 2020, and at the age of 16, I started my educational journey at <span className='text-blue-500'>SMKN 1 Cibinong</span>, where I really delved into the world of technology and programming.</p>
             <p>

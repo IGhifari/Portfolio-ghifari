@@ -11,7 +11,21 @@ const Contact = () => {
 
     const Igclick = () =>{
         window.open("https://www.instagram.com/ghfrriii/", '_blank', 'noopener,noreferrer');
-        
+    }
+    const Gitclick = () =>{
+        window.open("https://github.com/IGhifari", '_blank', 'noopener,noreferrer');
+    }
+    const Tiktokclick = () => {
+        window.open("https://www.tiktok.com/@ghrfiii?", '_blank', 'noopener,noreferrer');
+    }
+    const Discordclick = () => {
+        window.open("https://discord.gg/RTWnH8A6", '_blank', 'noopener,noreferrer');
+    }
+    const Linclick = () => {
+        window.open("https://www.linkedin.com/in/ghifari-undefined-76a199327/", '_blank', 'noopener,noreferrer');
+    }
+    const Emailclick = () => {
+        window.open("mailto:bimakadafi83@gmail.com", '_blank', 'noopener,noreferrer');
     }
     return(
 
@@ -39,7 +53,7 @@ const Contact = () => {
                 <div className='flex items-center justify-evenly contact'>
                     <div className='flex w-80 h-48  p-5 isi'>
                     <div className='w-12 h-12 p-2 rounded-2xl bg-slate-900 flex items-center transition-all ease-in-out duration-500 hover:bg-white hover:text-black cursor-pointer'>
-                        <MdEmail className='h-12 w-12  rounded-2xl' />
+                        <MdEmail className='h-12 w-12  rounded-2xl' onClick={Emailclick} />
                         </div>
                         <div className='pl-5'>
                             <h1 className='font-bold text-pink-500'>Email</h1>
@@ -51,7 +65,7 @@ const Contact = () => {
                     </div>
                     <div className='flex w-80 h-48  p-5 isi'>
                     <div className='w-12 h-12 p-2 rounded-2xl bg-slate-900 flex items-center transition-all ease-in-out duration-500 hover:bg-white hover:text-black cursor-pointer'>
-                        <FaDiscord className='h-12 w-12  rounded-2xl' />
+                        <FaDiscord className='h-12 w-12  rounded-2xl' onClick={Discordclick} />
                         </div>
                         <div className='pl-5'>
                             <h1 className='font-bold text-pink-500'>Discord</h1>
@@ -74,7 +88,7 @@ const Contact = () => {
                 <div className='flex justify-evenly contact'>
                 <div className='flex w-80 h-48  p-5 isi'>
                     <div className='w-12 h-12 p-2 rounded-2xl bg-slate-900 flex items-center transition-all ease-in-out duration-500 hover:bg-white hover:text-black cursor-pointer'>
-                        <FaLinkedin className='h-12 w-12  rounded-2xl' />
+                        <FaLinkedin className='h-12 w-12  rounded-2xl' onClick={Linclick} />
                     </div>
                         <div className='pl-5'>
                             <h1 className='font-bold text-pink-500'>Linkedin</h1>
@@ -85,7 +99,7 @@ const Contact = () => {
                 </div>
                 <div className='flex w-80 h-48  p-5 isi'>
                     <div className='w-12 h-12 p-2 rounded-2xl bg-slate-900 flex items-center transition-all ease-in-out duration-500 hover:bg-white hover:text-black cursor-pointer'>
-                        <IoLogoGithub className='h-12 w-12  rounded-2xl' />
+                        <IoLogoGithub className='h-12 w-12  rounded-2xl' onClick={Gitclick} />
                     </div>
                         <div className='pl-5'>
                             <h1 className='font-bold text-pink-500'>Github</h1>
@@ -96,7 +110,7 @@ const Contact = () => {
                 </div>
                 <div className='flex w-80 h-48  p-5 isi'>
                     <div className='w-12 h-12 p-2 rounded-2xl bg-slate-900 flex items-center transition-all ease-in-out duration-500 hover:bg-white hover:text-black cursor-pointer'>
-                        <FaTiktok className='h-12 w-12  rounded-2xl' />
+                        <FaTiktok className='h-12 w-12  rounded-2xl' onClick={Tiktokclick} />
                     </div>
                         <div className='pl-5'>
                             <h1 className='font-bold text-pink-500'>Tiktok</h1>

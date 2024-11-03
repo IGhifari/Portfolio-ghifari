@@ -36,7 +36,7 @@ const Timeline = () => {
         ];
     
     return (
-        <div  className="container mx-auto my-10 pt-48 ">
+        <div  className="container mx-auto my-10 pt-56 ">
             <h1 className="text-4xl font-bold text-center mb-10 hover:text-cyan-400 duration-500 transition-all ease-in-out ">
                         <TypeIt  
                         options={{ loop: true, loopDelay: 2000, speed: 100 }} // Loop dan pengaturan delay

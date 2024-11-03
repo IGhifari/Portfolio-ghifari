@@ -11,10 +11,10 @@ const Home = () => {
                     <h3 className='text-2xl font-normal'>M.Ghifari Bima Khadafi</h3>
                     <h1 className='text-white text-3xl font-montserrat'>
                         <TypeIt  
-                        options={{ loop: true, loopDelay: 2000, speed: 100 }} // Loop dan pengaturan delay
+                        options={{ loop: true, loopDelay: 2000, speed: 100 }} 
                                                 getBeforeInit={(instance) => {
                                                     instance
-                                                        .type("Front-End Developer") // Warna biru hanya untuk teks ini
+                                                        .type("Web Developer") 
                                                         .pause(750)
                                                         .delete(19)
                                                         .pause(700)

@@ -4,7 +4,7 @@
 .timeline{
     width: 100%;
     margin-left: 5rem;
-    
+
 }
 .profile{
     padding-left: 200px;
@@ -13,6 +13,9 @@
     padding-top: 100px;
 }
 @media screen and (max-width: 770px) {
+        ::-webkit-scrollbar{
+            display: none;
+        }
         .tampilan{
             width:  100%;
             flex-direction: row;
@@ -21,6 +24,9 @@
             width: 100%;
         }
         nav .social{
+            display: none;
+        }
+        nav h2{
             display: none;
         }
         nav .navbar{
@@ -39,7 +45,9 @@
         .profile {
             padding-left: 20px;  
             text-align: left;  
-            width: 100%;  
+            width: 100%; 
+            height: 800px;
+            padding-top: 1000px;
         }
     
         
@@ -61,9 +69,13 @@
         .text-2xl {
             height: auto;
         }
+        .academic-background {
+            padding-top: 600px;
+        }
 
         .contact{
             display: block !important;
+            
         }
         .contact .isi{
             margin-top: 7px;
@@ -82,12 +94,18 @@
         }
         .story{
             padding-top: 20px;
-            padding-left: 5px;
+            padding-left: 0px;
             width: 100%;
         }
         .contact-me{
-            padding-top: 230px;
+            padding-top: 100px;
+            margin-top: 700px;
         }
+        
     }
+.fixed-menu{
+    position: fixed;
+    height: 100%;
     
+}
     
