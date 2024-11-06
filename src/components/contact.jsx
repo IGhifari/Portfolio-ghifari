@@ -56,7 +56,7 @@ const Contact = () => {
                         <MdEmail className='h-12 w-12  rounded-2xl' onClick={Emailclick} />
                         </div>
                         <div className='pl-5'>
-                            <h1 className='font-bold text-pink-500'>Email</h1>
+                            <h1 className='font-bold text-pink-500' onClick={Emailclick}>Email</h1>
                             <p className='text-sm pr-5'>I always check up on my email
                                 daily, this is my primary
                                 contact method
@@ -68,7 +68,7 @@ const Contact = () => {
                         <FaDiscord className='h-12 w-12  rounded-2xl' onClick={Discordclick} />
                         </div>
                         <div className='pl-5'>
-                            <h1 className='font-bold text-pink-500'>Discord</h1>
+                            <h1 className='font-bold text-pink-500' onClick={Discordclick}>Discord</h1>
                             <p className='text-sm pr-3'>I use this daily for multi
                                 purposes,add me if you need real-time conversation
                             </p> 
@@ -79,7 +79,7 @@ const Contact = () => {
                             <FaInstagram className='h-12 w-12  rounded-2xl' onClick={Igclick}  />
                         </div>
                         <div className='pl-5'>
-                            <h1 className='font-bold text-pink-500'>Instagram</h1>
+                            <h1 className='font-bold text-pink-500' onClick={Igclick}>Instagram</h1>
                             <p className='text-sm'>Follow me to see my daily life!
                             </p> 
                         </div>
@@ -91,7 +91,7 @@ const Contact = () => {
                         <FaLinkedin className='h-12 w-12  rounded-2xl' onClick={Linclick} />
                     </div>
                         <div className='pl-5'>
-                            <h1 className='font-bold text-pink-500'>Linkedin</h1>
+                            <h1 className='font-bold text-pink-500' onClick={Linclick}>Linkedin</h1>
                             <p className='text-sm pr-5'>Learn more about my professional career background
                                 on linkedin
                             </p> 
@@ -102,7 +102,7 @@ const Contact = () => {
                         <IoLogoGithub className='h-12 w-12  rounded-2xl' onClick={Gitclick} />
                     </div>
                         <div className='pl-5'>
-                            <h1 className='font-bold text-pink-500'>Github</h1>
+                            <h1 className='font-bold text-pink-500' onClick={Gitclick}>Github</h1>
                             <p className='text-sm'>Find all my personal public project source code and contributions
                                 here
                             </p> 
@@ -113,7 +113,7 @@ const Contact = () => {
                         <FaTiktok className='h-12 w-12  rounded-2xl' onClick={Tiktokclick} />
                     </div>
                         <div className='pl-5'>
-                            <h1 className='font-bold text-pink-500'>Tiktok</h1>
+                            <h1 className='font-bold text-pink-500' onClick={Tiktokclick}>Tiktok</h1>
                             <p className='text-sm'>follow my tiktok to see the content I upload
                             </p> 
                         </div>

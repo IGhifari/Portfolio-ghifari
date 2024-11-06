@@ -5,7 +5,7 @@ const Home = () => {
 
     return(
         <div style={{height:'700px'}} className='text-2xl'>
-            <div className='text-white pt-80 profile'>
+            <div className='text-white  profile '>
                 <div className='p-4'>
                     <h3>Hello, I'm</h3>
                     <h3 className='text-2xl font-normal'>M.Ghifari Bima Khadafi</h3>

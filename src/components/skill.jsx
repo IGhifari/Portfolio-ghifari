@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide, } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-cards';
 import { EffectCards } from 'swiper/modules';
-
+import { IoLogoGithub } from "react-icons/io";
 import './skill.css'
 const Skills = () =>{
     // const techs = [
@@ -38,9 +38,29 @@ const Skills = () =>{
                         <div className=' m-2 h-60 overflow-y-auto text-sm'>
                             <div className=" h-56 overflow-y-auto  border-yellow-300 text-sm ">
                             <ul className="space-y-4 border-t-2 border-yellow-300 scroll-smooth duration-200">
-                                <li  className="flex items-center space-x-2">
-                                    <span className=""></span>
-                                    <span className="text-lg"></span>
+                            <li  className="flex items-center space-x-2 mt-5 justify-center">
+                                    <IoLogoGithub size={27}/>
+                                    <h1 className='text-1xl'>Github</h1>
+                                </li>
+                                <li  className="flex items-center space-x-2 mt-5 justify-center">
+                                    <IoLogoGithub size={27}/>
+                                    <h1 className='text-1xl'>Github</h1>
+                                </li>
+                                <li  className="flex items-center space-x-2 mt-5 justify-center">
+                                    <IoLogoGithub size={27}/>
+                                    <h1 className='text-1xl'>Github</h1>
+                                </li>
+                                <li  className="flex items-center space-x-2 mt-5 justify-center">
+                                    <IoLogoGithub size={27}/>
+                                    <h1 className='text-1xl'>Github</h1>
+                                </li>
+                                <li  className="flex items-center space-x-2 mt-5 justify-center">
+                                    <IoLogoGithub size={27}/>
+                                    <h1 className='text-1xl'>Github</h1>
+                                </li>
+                                <li  className="flex items-center space-x-2 mt-5 justify-center">
+                                    <IoLogoGithub size={27}/>
+                                    <h1 className='text-1xl'>Github</h1>
                                 </li>
 
                             </ul>
@@ -65,9 +85,29 @@ const Skills = () =>{
                             <div className=" h-56 overflow-y-auto  border-yellow-300 text-sm ">
                             <ul className="space-y-4  border-t-2 border-yellow-300 scroll-smooth duration-200">
                             
-                                <li  className="flex items-center space-x-2">
-                                    <span className=""></span>
-                                    <span className="text-lg"></span>
+                            <li  className="flex items-center space-x-2 mt-5 justify-center">
+                                    <IoLogoGithub size={27}/>
+                                    <h1 className='text-1xl'>Github</h1>
+                                </li>
+                                <li  className="flex items-center space-x-2 mt-5 justify-center">
+                                    <IoLogoGithub size={27}/>
+                                    <h1 className='text-1xl'>Github</h1>
+                                </li>
+                                <li  className="flex items-center space-x-2 mt-5 justify-center">
+                                    <IoLogoGithub size={27}/>
+                                    <h1 className='text-1xl'>Github</h1>
+                                </li>
+                                <li  className="flex items-center space-x-2 mt-5 justify-center">
+                                    <IoLogoGithub size={27}/>
+                                    <h1 className='text-1xl'>Github</h1>
+                                </li>
+                                <li  className="flex items-center space-x-2 mt-5 justify-center">
+                                    <IoLogoGithub size={27}/>
+                                    <h1 className='text-1xl'>Github</h1>
+                                </li>
+                                <li  className="flex items-center space-x-2 mt-5 justify-center">
+                                    <IoLogoGithub size={27}/>
+                                    <h1 className='text-1xl'>Github</h1>
                                 </li>
                                 
                             </ul>
@@ -90,13 +130,31 @@ const Skills = () =>{
                         </div>
                         <div className=' m-2 h-64 overflow-y-auto text-sm'>
                             <div className=" h-60 overflow-y-auto  border-yellow-300 text-sm ">
-                            <ul className="space-y-4  border-t-2 border-yellow-300 scroll-smooth duration-200">
-                                
-                                <li  className="flex items-center space-x-2">
-                                    <span className=""></span>
-                                    <span className="text-lg"></span>
+                            <ul className="space-y-4  border-t-2 border-yellow-300 border-b-2 scroll-smooth duration-200">
+                                <li  className="flex items-center space-x-2 mt-5 justify-center">
+                                    <IoLogoGithub size={27}/>
+                                    <h1 className='text-1xl'>Github</h1>
                                 </li>
-                        
+                                <li  className="flex items-center space-x-2 mt-5 justify-center">
+                                    <IoLogoGithub size={27}/>
+                                    <h1 className='text-1xl'>Github</h1>
+                                </li>
+                                <li  className="flex items-center space-x-2 mt-5 justify-center">
+                                    <IoLogoGithub size={27}/>
+                                    <h1 className='text-1xl'>Github</h1>
+                                </li>
+                                <li  className="flex items-center space-x-2 mt-5 justify-center">
+                                    <IoLogoGithub size={27}/>
+                                    <h1 className='text-1xl'>Github</h1>
+                                </li>
+                                <li  className="flex items-center space-x-2 mt-5 justify-center">
+                                    <IoLogoGithub size={27}/>
+                                    <h1 className='text-1xl'>Github</h1>
+                                </li>
+                                <li  className="flex items-center space-x-2 mt-5 justify-center">
+                                    <IoLogoGithub size={27}/>
+                                    <h1 className='text-1xl'>Github</h1>
+                                </li>
                             </ul>
                             </div>
                         </div>

@@ -42,7 +42,7 @@
         <footer style={{fontSize:'0.9rem'}} className='text-white h-20  '>
           <div className='text-center'>
             <h1 className='font-montserrat'>Ghifari</h1>
-            <h1>Fullstack Developer</h1>
+            <h1>Web Developer</h1>
             <p className='text-sm'>Copyright &#169; {new Date().getFullYear()} Ghifari. All rights reserved.</p>
           </div>
         </footer>
