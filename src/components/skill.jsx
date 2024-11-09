@@ -5,15 +5,13 @@ import 'swiper/css/effect-cards';
 import { EffectCards } from 'swiper/modules';
 import { IoLogoGithub } from "react-icons/io";
 import './skill.css'
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { FaJs } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
+import { RiTailwindCssFill } from "react-icons/ri";
 const Skills = () =>{
-    // const techs = [
-    //     { name: 'HTML', icon: 'src\assets\html.png' }, 
-    //     { name: 'CSS', icon: '📱' }, 
-    //     { name: 'Java Script', icon: '🎨' }, 
-    //     { name: 'Tailwind', icon: '💨' }, 
-    //     { name: 'ReactJS', icon: '🔁' },
-    //     { name: 'hahah',icon:'9'}
-    // ];
     return(
         <div className='mt-10'>
             <div className='text-sm font-montserrat text-center'>
@@ -37,32 +35,31 @@ const Skills = () =>{
                         </div>
                         <div className=' m-2 h-60 overflow-y-auto text-sm'>
                             <div className=" h-56 overflow-y-auto  border-yellow-300 text-sm ">
-                            <ul className="space-y-4 border-t-2 border-yellow-300 scroll-smooth duration-200">
-                            <li  className="flex items-center space-x-2 mt-5 justify-center">
-                                    <IoLogoGithub size={27}/>
-                                    <h1 className='text-1xl'>Github</h1>
+                            <ul className="space-y-4 border-t-2 border-b-2 border-yellow-300 scroll-smooth duration-200">
+                                <li  className="flex items-center space-x-2 mt-5  justify-center">
+                                    <FaHtml5 size={27}/>
+                                    <h1 className='text-1xl'>HTML</h1>
                                 </li>
                                 <li  className="flex items-center space-x-2 mt-5 justify-center">
-                                    <IoLogoGithub size={27}/>
-                                    <h1 className='text-1xl'>Github</h1>
+                                    <FaCss3Alt size={27}/>
+                                    <h1 className='text-1xl'>CSS</h1>
                                 </li>
                                 <li  className="flex items-center space-x-2 mt-5 justify-center">
-                                    <IoLogoGithub size={27}/>
-                                    <h1 className='text-1xl'>Github</h1>
+                                    <FaJs size={27}/>
+                                    <h1 className='text-1xl'>Java Script</h1>
                                 </li>
                                 <li  className="flex items-center space-x-2 mt-5 justify-center">
-                                    <IoLogoGithub size={27}/>
-                                    <h1 className='text-1xl'>Github</h1>
+                                    <FaReact size={27}/>
+                                    <h1 className='text-1xl'>React JS</h1>
                                 </li>
                                 <li  className="flex items-center space-x-2 mt-5 justify-center">
-                                    <IoLogoGithub size={27}/>
-                                    <h1 className='text-1xl'>Github</h1>
+                                    <RiTailwindCssFill size={27}/>
+                                    <h1 className='text-1xl'>Tailwind CSS</h1>
                                 </li>
-                                <li  className="flex items-center space-x-2 mt-5 justify-center">
-                                    <IoLogoGithub size={27}/>
-                                    <h1 className='text-1xl'>Github</h1>
+                                <li  className="flex items-center space-x-2 mt-5 pb-5 justify-center">
+                                    <RiNextjsFill size={27}/>
+                                    <h1 className='text-1xl'>Next</h1>
                                 </li>
-
                             </ul>
                             </div>
                         </div>
@@ -83,7 +80,7 @@ const Skills = () =>{
                         </div>
                         <div className=' m-2 h-60 overflow-y-auto text-sm'>
                             <div className=" h-56 overflow-y-auto  border-yellow-300 text-sm ">
-                            <ul className="space-y-4  border-t-2 border-yellow-300 scroll-smooth duration-200">
+                            <ul className="space-y-4  border-t-2 border-b-2 border-yellow-300 scroll-smooth duration-500">
                             
                             <li  className="flex items-center space-x-2 mt-5 justify-center">
                                     <IoLogoGithub size={27}/>
@@ -105,7 +102,7 @@ const Skills = () =>{
                                     <IoLogoGithub size={27}/>
                                     <h1 className='text-1xl'>Github</h1>
                                 </li>
-                                <li  className="flex items-center space-x-2 mt-5 justify-center">
+                                <li  className="flex items-center space-x-2 mt-5 pb-5 justify-center">
                                     <IoLogoGithub size={27}/>
                                     <h1 className='text-1xl'>Github</h1>
                                 </li>
@@ -151,7 +148,7 @@ const Skills = () =>{
                                     <IoLogoGithub size={27}/>
                                     <h1 className='text-1xl'>Github</h1>
                                 </li>
-                                <li  className="flex items-center space-x-2 mt-5 justify-center">
+                                <li  className="flex items-center space-x-2 mt-5 pb-5 justify-center">
                                     <IoLogoGithub size={27}/>
                                     <h1 className='text-1xl'>Github</h1>
                                 </li>

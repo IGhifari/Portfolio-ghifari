@@ -12,10 +12,10 @@
     return (
       <div className='bg-black tampilan '>
         <Navbar />
-        <section id="profile" className="h-screen  text-white ">
+        <section id="profile" className="h-full  text-white ">
           <Home/>
         </section>
-        <section style={{height:"1500px"}} id="projects" className="h-screen  text-white  ">
+        <section style={{height:"1500px"}} id="projects" className="h-full   text-white  ">
           <Project/>
         </section>
         <section style={{height:'700px'}} className='text-white pb-48 '>
@@ -33,13 +33,13 @@
         <section className="h-screen  text-white flex text-center justify-center mt-44 ">
           <Story/>
         </section>
-        <section id="AcademicBackground" className="h-screen  text-white flex items-center justify-center academic-background ">
+        <section id="AcademicBackground" className="h-full   text-white flex items-center justify-center academic-background ">
           <AcademicBackground/>
         </section>
-        <section id="contact" className="h-screen  text-white  mt-64">
+        <section id="contact" className="h-full  text-white  mt-64  ">
           <Contact/>
         </section>
-        <footer style={{fontSize:'0.9rem'}} className='text-white h-20  '>
+        <footer style={{fontSize:'0.9rem'}} className='text-white h-20 mt-20 '>
           <div className='text-center'>
             <h1 className='font-montserrat'>Ghifari</h1>
             <h1>Web Developer</h1>

@@ -16,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 text-sm left-0 w-full h-20 flex justify-between items-center bg-black text-white pt-5 shadow-lg z-50 backdrop-blur-sm pb-5">
+    <nav  className="fixed top-0 text-sm left-0 w-full h-20 flex justify-between items-center bg-black text-white pt-5 shadow-lg z-50 backdrop-blur-sm pb-5">
     <div className="flex gap-5">
       <div className="pr-5 pl-5 flex logo">
         <div className="pl-3">
@@ -28,7 +28,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className="gap-5 flex items-center font-montserrat navbar hidden md:flex border-l-2 border-white pl-5">
+      <div className="gap-5 flex items-center font-montserrat navbar hidden md:flex border-l-2 border-white pl-5 ">
         <Link to="profile" smooth={true} duration={700} className="hover:text-cyan-400 transition-all ease-in-out duration-75 cursor-pointer">PROFILE</Link>
         <Link to="projects" smooth={true} duration={700} className="hover:text-cyan-400 cursor-pointer">PROJECTS</Link>
         <Link to="AcademicBackground" smooth={true} duration={700} className="hover:text-cyan-400 cursor-pointer">ACADEMIC BACKGROUND</Link>
@@ -53,7 +53,7 @@ const Navbar = () => {
       <IoMenu size={33} onClick={toggleMenu} />
     </div>
   
-    <div className={`fixed top-0 right-0 w-64 h-full bg-black text-white shadow-lg transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out w-full h-screen`}>
+    <div className={`fixed top-0 right-0 w-64 h-full bg-black  text-white shadow-lg transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out w-full h-screen flex flex-col`}>
       <div className='p-5 flex justify-between'>
         <div className="pl-3">
           <h1>Ghifari</h1>
@@ -77,7 +77,7 @@ const Navbar = () => {
         </li>
       </ul>
   
-      <div className='flex justify-center gap-10  mb-5 mt-96'>
+      <div  className='flex justify-center gap-10  mb-5 mt-auto'>
         <a href="https://www.instagram.com/ghfrriii/">
           <FaInstagram size={30} />
         </a>

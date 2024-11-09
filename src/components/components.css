@@ -6,9 +6,13 @@ body{
     flex-wrap: wrap;
   }
   
-.story{
-    width: 100%;
-    max-width: 780px;
+  .story {
+    margin-left: 310px;
+    padding-top: 20px;
+    padding-left: 10px;  /* Tambahkan padding kiri */
+    padding-right: 10px; /* Tambahkan padding kanan */
+    width: 60%;
+    text-align: center;
 }
 .timeline{
     width: 100%;
@@ -21,9 +25,6 @@ body{
     display: flex;
     align-items: center;
     height: 775px;
-}
-.contact-me{
-    padding-top: 100px;
 }
 @media screen and (max-width: 770px) {
         ::-webkit-scrollbar{
@@ -81,10 +82,6 @@ body{
         .text-2xl {
             height: auto;
         }
-        .academic-background {
-            padding-top: 600px;
-        }
-
         .contact{
             display: block !important;
             
@@ -105,14 +102,15 @@ body{
             padding-right: 15px;
             width: 100%;
         }
-        .story{
-            padding-top: 20px;
-            padding-left: 0px;
+        .story {
+            margin-left: 0;
             width: 100%;
+            padding-left: 16px;  /* Tambahkan padding lebih besar pada layar mobile */
+            padding-right: 16px; 
+            text-align: justify; /* Agar teks lebih rapi pada mobile */
         }
         .contact-me{
             padding-top: 100px;
-            margin-top: 700px;
         }
         
     }
