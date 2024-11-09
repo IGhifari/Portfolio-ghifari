@@ -39,7 +39,7 @@
         <section id="contact" className="h-full  text-white  mt-64  ">
           <Contact/>
         </section>
-        <footer style={{fontSize:'0.9rem'}} className='text-white h-20 mt-20 '>
+        <footer style={{fontSize:'0.9rem'}} className='text-white h-20 mt-36 footer'>
           <div className='text-center'>
             <h1 className='font-montserrat'>Ghifari</h1>
             <h1>Web Developer</h1>

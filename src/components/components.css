@@ -6,7 +6,7 @@ body{
     flex-wrap: wrap;
   }
   
-  .story {
+.story {
     margin-left: 310px;
     padding-top: 20px;
     padding-left: 10px;  /* Tambahkan padding kiri */
@@ -94,9 +94,7 @@ body{
         .contact .data-contact{
             margin-top: 1rem;
         }
-        footer{
-            margin-top: 300px;
-        }
+        
         .timeline{
             margin-left: 1rem;
             padding-right: 15px;

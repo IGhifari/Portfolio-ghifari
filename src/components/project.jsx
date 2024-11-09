@@ -5,7 +5,7 @@ import TypeIt from "typeit-react";
 const Project = () =>{
 
     return(
-        <div className='pt-20'>
+        <div className='pt-20 mt-96'>
             <h1 className="text-4xl font-bold text-center mb-3 hover:text-cyan-400 duration-500 transition-all ease-in-out ">
                         <TypeIt  
                         options={{ loop: true, loopDelay: 2000, speed: 100 }} // Loop dan pengaturan delay
