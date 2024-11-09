@@ -4,7 +4,7 @@ import './components.css';
 const Home = () => {
 
     return(
-        <div style={{height:'700px'}} className='text-2xl'>
+        <div  className='text-2xl h-full'>
             <div className='text-white  profile '>
                 <div className='p-4'>
                     <h3>Hello, I'm</h3>
