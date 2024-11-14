@@ -6,7 +6,7 @@ const Timeline = () => {
         {
             date: "Juni 2010 - Juni 2011",
             title: "Preschool - Paud Al-Wusto",
-            place : "Kaliwungu, Central Lampung Regency, South Sumatara, Indonesia",
+            place : "Kaliwungu, Central Lampung Regency, South Sumatra, Indonesia",
             description: "I entered preschool at the age of 2 years, I was accustomed to fun learning methods through games, singing and drawing. This experience helps develop important social skills."
         },
         {

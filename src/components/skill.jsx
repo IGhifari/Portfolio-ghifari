@@ -11,6 +11,9 @@ import { FaJs } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { AiFillOpenAI } from "react-icons/ai";
+import { FaQuestion } from "react-icons/fa";
+import { DiVisualstudio } from "react-icons/di";
 const Skills = () =>{
     return(
         <div className='mt-10'>
@@ -57,14 +60,14 @@ const Skills = () =>{
                                     <h1 className='text-1xl'>Tailwind CSS</h1>
                                 </li>
                                 <li  className="flex items-center space-x-2 mt-5 pb-5 justify-center">
-                                    <RiNextjsFill size={27}/>
-                                    <h1 className='text-1xl'>Next</h1>
+                                    <FaQuestion size={25}/>
+                                    <h1 className='text-1xl'>Soon</h1>
                                 </li>
                             </ul>
                             </div>
                         </div>
-                        <div style={{fontSize:'0.7rem'}} className='text-start pl-5 pr-1'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem maxime adipisci quisquam. Cupiditate deserunt quisquam consequuntur accusamus.
+                        <div style={{fontSize:'0.6rem'}} className='text-start pl-3 pr-1'>
+                            The frontend of the application is responsible for creating the user interface (UI) and providing a seamless user experience (UX). It involves technologies like HTML, CSS, JavaScript, and frameworks such as React or Vue.js to render dynamic and responsive content.
                         </div>
                     </div>
                 </SwiperSlide>
@@ -83,36 +86,37 @@ const Skills = () =>{
                             <ul className="space-y-4  border-t-2 border-b-2 border-yellow-300 scroll-smooth duration-500">
                             
                             <li  className="flex items-center space-x-2 mt-5 justify-center">
-                                    <IoLogoGithub size={27}/>
-                                    <h1 className='text-1xl'>Github</h1>
+                            <FaQuestion size={25}/>
+                            <h1 className='text-1xl'>Soon</h1>
                                 </li>
                                 <li  className="flex items-center space-x-2 mt-5 justify-center">
-                                    <IoLogoGithub size={27}/>
-                                    <h1 className='text-1xl'>Github</h1>
+                                <FaQuestion size={25}/>
+                                <h1 className='text-1xl'>Soon</h1>
                                 </li>
                                 <li  className="flex items-center space-x-2 mt-5 justify-center">
-                                    <IoLogoGithub size={27}/>
-                                    <h1 className='text-1xl'>Github</h1>
+                                <FaQuestion size={25}/>
+                                <h1 className='text-1xl'>Soon</h1>
                                 </li>
                                 <li  className="flex items-center space-x-2 mt-5 justify-center">
-                                    <IoLogoGithub size={27}/>
-                                    <h1 className='text-1xl'>Github</h1>
+                                <FaQuestion size={25}/>
+                                <h1 className='text-1xl'>Soon</h1>
                                 </li>
                                 <li  className="flex items-center space-x-2 mt-5 justify-center">
-                                    <IoLogoGithub size={27}/>
-                                    <h1 className='text-1xl'>Github</h1>
+                                <FaQuestion size={25}/>
+                                <h1 className='text-1xl'>Soon</h1>
                                 </li>
                                 <li  className="flex items-center space-x-2 mt-5 pb-5 justify-center">
-                                    <IoLogoGithub size={27}/>
-                                    <h1 className='text-1xl'>Github</h1>
+                                <FaQuestion size={25}/>
+                                <h1 className='text-1xl'>Soon</h1>
                                 </li>
                                 
                             </ul>
                             </div>
                         </div>
-                        <div style={{fontSize:'0.7rem'}} className='text-start pl-5 pr-1'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem maxime adipisci quisquam. Cupiditate deserunt quisquam consequuntur accusamus.
+                        <div style={{fontSize:'0.7rem'}} className='text-start pl-3 pr-1'>
+                            The backend handles the server-side logic and database interactions, ensuring data is processed and stored securely.
                         </div>
+
                 </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -129,35 +133,36 @@ const Skills = () =>{
                             <div className=" h-60 overflow-y-auto  border-yellow-300 text-sm ">
                             <ul className="space-y-4  border-t-2 border-yellow-300 border-b-2 scroll-smooth duration-200">
                                 <li  className="flex items-center space-x-2 mt-5 justify-center">
-                                    <IoLogoGithub size={27}/>
-                                    <h1 className='text-1xl'>Github</h1>
+                                    <AiFillOpenAI size={27}/>
+                                    <h1 className='text-1xl'>Chat GPT</h1>
+                                </li>
+                                <li  className="flex items-center space-x-2 mt-5 justify-center">
+                                    <DiVisualstudio size={27}/>
+                                    <h1 className='text-1xl'>Visual Studio Code</h1>
                                 </li>
                                 <li  className="flex items-center space-x-2 mt-5 justify-center">
                                     <IoLogoGithub size={27}/>
                                     <h1 className='text-1xl'>Github</h1>
                                 </li>
                                 <li  className="flex items-center space-x-2 mt-5 justify-center">
-                                    <IoLogoGithub size={27}/>
-                                    <h1 className='text-1xl'>Github</h1>
+                                <FaQuestion size={25}/>
+                                <h1 className='text-1xl'>Soon</h1>
                                 </li>
                                 <li  className="flex items-center space-x-2 mt-5 justify-center">
-                                    <IoLogoGithub size={27}/>
-                                    <h1 className='text-1xl'>Github</h1>
-                                </li>
-                                <li  className="flex items-center space-x-2 mt-5 justify-center">
-                                    <IoLogoGithub size={27}/>
-                                    <h1 className='text-1xl'>Github</h1>
+                                <FaQuestion size={25}/>
+                                <h1 className='text-1xl'>Soon</h1>
                                 </li>
                                 <li  className="flex items-center space-x-2 mt-5 pb-5 justify-center">
-                                    <IoLogoGithub size={27}/>
-                                    <h1 className='text-1xl'>Github</h1>
+                                <FaQuestion size={25}/>
+                                <h1 className='text-1xl'>Soon</h1>
                                 </li>
                             </ul>
                             </div>
                         </div>
-                        <div style={{fontSize:'0.7rem'}} className='text-start pl-5 pr-1'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem maxime adipisci quisquam. Cupiditate deserunt quisquam consequuntur accusamus.
+                        <div style={{fontSize:'0.7rem'}} className='text-start pl-3 pr-1'>
+                                Utilities provide helpful tools and libraries that assist in managing common tasks such as formatting data, caching, logging, and testing.
                         </div>
+
                 </div>
                 </SwiperSlide>
                 </Swiper>
