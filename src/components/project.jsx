@@ -14,7 +14,7 @@ const Project = () => {
         },
         {
             title: "Game Ecovoyage-PulauHarapan",
-            "description": "An interactive educational game developed collaboratively with friends, exploring the beauty and environmental sustainability of Pulau Harapan. This game teaches players about conservation and eco-friendly practices through engaging gameplay.",
+            description: "An interactive educational game developed collaboratively with friends, exploring the beauty and environmental sustainability of Pulau Harapan. This game teaches players about conservation and eco-friendly practices through engaging gameplay.",
             image: "/src/assets/pulauharapan.png", // Add your dashboard image
             tags: ["HTML", "Javascript", "CSS"],
             github: "https://github.com/IGhifari/EcoVoyage-PulauHarapan",
