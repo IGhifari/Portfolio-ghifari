@@ -23,13 +23,13 @@
           <Project/>
         </section>
         <section style={{height:'700px'}} className='text-white pb-48 '>
-          <div className=' '>
+          <div className='mt-60 md:mt-0'>
             <div className='flex items-center pl-5 '>
               <div style={{border:'2px solid white'}} className='rounded-md w-12 h-0'>
               </div>
                 <h3 style={{fontSize:'1.2rem'}} className='pl-3 '>Skills</h3>
             </div>
-            <div>
+            <div className=''>
               <Skills/>
             </div>
           </div>
@@ -37,7 +37,7 @@
         <section className="h-screen  text-white flex text-center justify-center mt-44 ">
           <Story/>
         </section>
-        <section id="AcademicBackground" className="h-full mt-96   text-white flex items-center justify-center academic-background ">
+        <section id="AcademicBackground" className="h-full mt-80   text-white flex items-center justify-center academic-background ">
           <AcademicBackground/>
         </section>
         <section id="contact" className="h-full  text-white  mt-64  ">
