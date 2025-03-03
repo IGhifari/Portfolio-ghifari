@@ -8,7 +8,7 @@ import { IoLogoGithub } from "react-icons/io";
 import { FaTiktok } from "react-icons/fa";
 import './components.css';
 const Contact = () => {
-
+  
     const Igclick = () =>{
         window.open("https://www.instagram.com/ghfrriii/", '_blank', 'noopener,noreferrer');
     }

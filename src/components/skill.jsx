@@ -9,11 +9,13 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaJs } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
-import { RiNextjsFill } from "react-icons/ri";
+import { TbBrandMysql } from "react-icons/tb";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { AiFillOpenAI } from "react-icons/ai";
 import { FaQuestion } from "react-icons/fa";
 import { DiVisualstudio } from "react-icons/di";
+import { FaLaravel } from "react-icons/fa";
+import { SiPhp } from "react-icons/si";
 const Skills = () =>{
     return(
         <div className='mt-10'>
@@ -60,8 +62,8 @@ const Skills = () =>{
                                     <h1 className='text-1xl'>Tailwind CSS</h1>
                                 </li>
                                 <li  className="flex items-center space-x-2 mt-5 pb-5 justify-center">
-                                    <FaQuestion size={25}/>
-                                    <h1 className='text-1xl'>Soon</h1>
+                                    <FaLaravel size={25}/>
+                                    <h1 className='text-1xl'>Laravel</h1>
                                 </li>
                             </ul>
                             </div>
@@ -86,12 +88,12 @@ const Skills = () =>{
                             <ul className="space-y-4  border-t-2 border-b-2 border-yellow-300 scroll-smooth duration-500">
                             
                             <li  className="flex items-center space-x-2 mt-5 justify-center">
-                            <FaQuestion size={25}/>
-                            <h1 className='text-1xl'>Soon</h1>
+                                <TbBrandMysql size={25}/>
+                                <h1 className='text-1xl'>MYSQL</h1>
                                 </li>
                                 <li  className="flex items-center space-x-2 mt-5 justify-center">
-                                <FaQuestion size={25}/>
-                                <h1 className='text-1xl'>Soon</h1>
+                                <SiPhp size={25}/>
+                                <h1 className='text-1xl'>PHP</h1>
                                 </li>
                                 <li  className="flex items-center space-x-2 mt-5 justify-center">
                                 <FaQuestion size={25}/>

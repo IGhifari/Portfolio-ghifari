@@ -8,9 +8,13 @@
   import Contact from './components/contact'
   import Skills from './components/skill'
   import Story from './components/story';
+  import ParticlesBackground from './components/particlesBackground';
   const App = () => {
     return (
-      <div className='bg-black tampilan '>
+      <div className=' tampilan '>
+        <div className="absolute top-0 left-0 w-full h-full -z-10">
+    <ParticlesBackground />
+  </div>
         <Navbar />
         <section id="profile" className="h-full  text-white ">
           <Home/>
@@ -33,7 +37,7 @@
         <section className="h-screen  text-white flex text-center justify-center mt-44 ">
           <Story/>
         </section>
-        <section id="AcademicBackground" className="h-full   text-white flex items-center justify-center academic-background ">
+        <section id="AcademicBackground" className="h-full mt-96   text-white flex items-center justify-center academic-background ">
           <AcademicBackground/>
         </section>
         <section id="contact" className="h-full  text-white  mt-64  ">
