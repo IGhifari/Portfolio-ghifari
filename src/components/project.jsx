@@ -23,7 +23,7 @@ const Project = () => {
         {
             title: "Soon...",
             description: "A web-based internship journal system designed to help students record, manage, and track their internship activities efficiently. Built with React JS, Laravel, and MySQL to provide a seamless and organized experience.",
-            image: "/src/assets/internshipjournalsiswa.png", // Add your dashboard image
+            image: "/src/assets/internship.png", // Add your dashboard image
             tags: ["React JS", "Laravel", "MYSQL"],
             github: "https://github.com/IGhifari/internship-journal",
             live: "https://your-internship-journal.com"
