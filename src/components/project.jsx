@@ -7,7 +7,7 @@ const Project = () => {
         {
             title: "Portfolio Website",
             description: "Personal portfolio website built with React and Tailwind CSS",
-            image: "/src/assets/portfolio.png", // Add your project image
+            image: "/assets/portfolio.png", // Add your project image
             tags: ["React", "Tailwind CSS", "JavaScript"],
             github: "https://github.com/IGhifari/Portfolio-ghifari",
             live: window.location.href
