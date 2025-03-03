@@ -43,7 +43,7 @@ const Navbar = () => {
       <a href="https://github.com/IGhifari">
         <IoLogoGithub size={22} />
       </a>
-      <a href="https://www.linkedin.com/in/m-ghifari-bima-k-76a199327/">
+      <a href="https://www.linkedin.com/in/ighifari/">
         <FaLinkedin size={22} />
       </a>
     </div>
@@ -84,7 +84,7 @@ const Navbar = () => {
         <a href="https://github.com/IGhifari">
           <IoLogoGithub size={30} />
         </a>
-        <a href="https://www.linkedin.com/in/m-ghifari-bima-k-76a199327/">
+        <a href="https://www.linkedin.com/in/ighifari/">
           <FaLinkedin size={30} />
         </a>
       </div>

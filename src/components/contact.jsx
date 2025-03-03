@@ -19,13 +19,13 @@ const Contact = () => {
         window.open("https://www.tiktok.com/@ghrfiii?", '_blank', 'noopener,noreferrer');
     }
     const Discordclick = () => {
-        window.open("https://discord.gg/RTWnH8A6", '_blank', 'noopener,noreferrer');
+        window.open("https://discord.com/channels/@ghifari#7471", '_blank', 'noopener,noreferrer');
     }
     const Linclick = () => {
-        window.open("https://www.linkedin.com/in/ghifari-undefined-76a199327/", '_blank', 'noopener,noreferrer');
+        window.open("https://www.linkedin.com/in/ighifari/", '_blank', 'noopener,noreferrer');
     }
     const Emailclick = () => {
-        window.open("mailto:bimakadafi83@gmail.com", '_blank', 'noopener,noreferrer');
+        window.open("mailto:ighifarii05@gmail.com", '_blank', 'noopener,noreferrer');
     }
     return(
 

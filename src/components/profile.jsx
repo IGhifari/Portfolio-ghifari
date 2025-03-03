@@ -49,7 +49,7 @@ const Home = () => {
                            className='text-gray-400 hover:text-white transition-colors duration-300'>
                             <FaGithub size={24} />
                         </a>
-                        <a href="https://www.linkedin.com/in/m-ghifari-bima-k-76a199327/" target="_blank" rel="noopener noreferrer"
+                        <a href="https://www.linkedin.com/in/ighifari/" target="_blank" rel="noopener noreferrer"
                            className='text-gray-400 hover:text-white transition-colors duration-300'>
                             <FaLinkedin size={24} />
                         </a>
