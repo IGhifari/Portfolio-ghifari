@@ -7,7 +7,7 @@ const Project = () => {
         {
             title: "Portfolio Website",
             description: "Personal portfolio website built with React and Tailwind CSS",
-            image: "/assets/portfolio.png", // Add your project image
+            image: "portfolio.png", // Add your project image
             tags: ["React", "Tailwind CSS", "JavaScript"],
             github: "https://github.com/IGhifari/Portfolio-ghifari",
             live: window.location.href
@@ -15,7 +15,7 @@ const Project = () => {
         {
             title: "Game Ecovoyage-PulauHarapan",
             description: "An interactive educational game developed collaboratively with friends, exploring the beauty and environmental sustainability of Pulau Harapan. This game teaches players about conservation and eco-friendly practices through engaging gameplay.",
-            image: "/src/assets/pulauharapan.png", // Add your dashboard image
+            image: "pulauharapan.png", // Add your dashboard image
             tags: ["HTML", "Javascript", "CSS"],
             github: "https://github.com/IGhifari/EcoVoyage-PulauHarapan",
             live: "https://ighifari.github.io/EcoVoyage-PulauHarapan/views/halamanAwal.html"
@@ -23,7 +23,7 @@ const Project = () => {
         {
             title: "Soon...",
             description: "A web-based internship journal system designed to help students record, manage, and track their internship activities efficiently. Built with React JS, Laravel, and MySQL to provide a seamless and organized experience.",
-            image: "/src/assets/internship.png", // Add your dashboard image
+            image: "internship.png", // Add your dashboard image
             tags: ["React JS", "Laravel", "MYSQL"],
             github: "https://github.com/IGhifari/internship-journal",
             live: "https://your-internship-journal.com"
