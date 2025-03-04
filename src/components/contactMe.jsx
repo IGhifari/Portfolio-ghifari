@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import TypeIt from "typeit-react";
 import { IoMdMail } from "react-icons/io";
-import { FaWhatsapp } from "react-icons/fa";
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import emailjs from "@emailjs/browser";
 
 const ContactMe = () => {
@@ -11,6 +12,7 @@ const ContactMe = () => {
         email: "",
         message: "",
     });
+    const [isSubmitting, setIsSubmitting] = useState(false);
 
     const handleChange = (e) => {
         setFormData({
@@ -19,31 +21,55 @@ const ContactMe = () => {
         });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
+        setIsSubmitting(true);
 
-        emailjs
-            .send(
-                "service_6o774kk", // Ganti dengan Service ID dari EmailJS
-                "template_bnv8u1l", // Ganti dengan Template ID dari EmailJS
+        try {
+            await emailjs.send(
+                "service_6o774kk",
+                "template_bnv8u1l",
                 formData,
-                "GqVOYhFpjcBlS7ZsT" // Ganti dengan User ID dari EmailJS
-            )
-            .then(
-                (response) => {
-                    console.log("SUCCESS!", response.status, response.text);
-                    alert("Pesan berhasil dikirim!");
-                    setFormData({ name: "", email: "", message: "" });
-                },
-                (err) => {
-                    console.log("FAILED...", err);
-                    alert("Terjadi kesalahan, coba lagi.");
-                }
+                "GqVOYhFpjcBlS7ZsT"
             );
+
+            toast.success('Message sent successfully! 🎉', {
+                position: "top-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "dark",
+            });
+
+            setFormData({ 
+                emailto: "Ghifari",
+                name: "", 
+                email: "", 
+                message: "" 
+            });
+        } catch (error) {
+            toast.error('Failed to send message. Please try again! 😕', {
+                position: "top-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "dark",
+            });
+            console.error("FAILED...", error);
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     return (
         <div className="container mx-auto px-4 py-28 mt-4">
+            <ToastContainer />
             <div className="max-w-4xl mx-auto">
                 <div className="text-center mb-12">
                     <h1 className="text-3xl font-bold mb-4">
@@ -137,9 +163,22 @@ const ContactMe = () => {
                             </div>
                             <button
                                 type="submit"
-                                className="w-full px-6 py-3 bg-cyan-500 hover:bg-cyan-600 rounded-lg transition-all duration-300 text-white font-medium"
+                                disabled={isSubmitting}
+                                className={`w-full px-6 py-3 bg-cyan-500 hover:bg-cyan-600 rounded-lg transition-all duration-300 text-white font-medium flex items-center justify-center gap-2 ${
+                                    isSubmitting ? 'opacity-75 cursor-not-allowed' : ''
+                                }`}
                             >
-                                Send Message
+                                {isSubmitting ? (
+                                    <>
+                                        <svg className="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                            <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                                            <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                                        </svg>
+                                        Sending...
+                                    </>
+                                ) : (
+                                    'Send Message'
+                                )}
                             </button>
                         </form>
                     </div>
