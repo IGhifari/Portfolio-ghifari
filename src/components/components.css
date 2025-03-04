@@ -274,7 +274,7 @@ body{
 
 .last-updated-container {
     position: fixed;
-    left: -5rem;  /* Changed from right to left */
+    left: -6rem;  /* Changed from right to left */
     top: 90%;
     transform: rotate(-90deg) translateX(50%); /* Changed rotation and translation */
     z-index: 50;
@@ -319,4 +319,55 @@ body{
         left: -6.9rem; /* Changed from right to left */
     }
 }
-
+.menu-button {
+    position: relative;
+    width: 33px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu-button svg {
+    position: absolute;
+  }
+  
+  /* Mobile menu animation */
+  .mobile-menu-enter {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  
+  .mobile-menu-enter-active {
+    transform: translateX(0);
+    opacity: 1;
+    transition: all 500ms ease-in-out;
+  }
+  
+  .mobile-menu-exit {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
+  .mobile-menu-exit-active {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: all 500ms ease-in-out;
+  }
+  
+  /* Mobile menu links animation */
+  .mobile-menu ul li {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+  }
+  
+  .mobile-menu.active ul li {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .mobile-menu.active ul li:nth-child(1) { transition-delay: 0.1s; }
+  .mobile-menu.active ul li:nth-child(2) { transition-delay: 0.2s; }
+  .mobile-menu.active ul li:nth-child(3) { transition-delay: 0.3s; }
+  .mobile-menu.active ul li:nth-child(4) { transition-delay: 0.4s; }

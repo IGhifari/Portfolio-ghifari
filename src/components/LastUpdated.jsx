@@ -20,8 +20,10 @@ const LastUpdated = () => {
                     className="clock-icon cursor-pointer" 
                     onClick={() => setIsVisible(!isVisible)}
                 />
-                <span className="update-text">
-                    Last Updated — {formatDate(new Date())}
+                <span className="update-text font-montserrat">
+                    <span className="font-medium">Last Updated</span>
+                    <span className="text-cyan-400 ml-1">—</span>
+                    <span className="ml-1 text-gray-300">{formatDate(new Date())}</span>
                 </span>
             </div>
         </div>
