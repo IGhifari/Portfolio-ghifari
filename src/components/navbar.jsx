@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="flex gap-5">
         <div className="pr-5 pl-5 flex logo">
           <div>
-            <img src="/src/assets/logo1.png" alt="" className='w-10' />
+            <img src="logo1.png" alt="" className='w-10' />
           </div>
           <div className="pl-3">
             <div className='img1'>
@@ -62,7 +62,7 @@ const Navbar = () => {
         <div className='p-5 flex justify-between'>
           <div className="pl-3 flex">
             <div>
-              <img src="/src/assets/logo1.png" alt="" className='w-10' />
+              <img src="logo1.png" alt="" className='w-10' />
             </div>
             <div>
               <h1>Ghifari</h1>
