@@ -316,7 +316,7 @@ body{
 
 @media (max-width: 768px) {
     .last-updated-container {
-        left: -6rem; /* Changed from right to left */
+        left: -6.9rem; /* Changed from right to left */
     }
 }
 

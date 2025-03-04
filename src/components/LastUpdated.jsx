@@ -21,7 +21,7 @@ const LastUpdated = () => {
                     onClick={() => setIsVisible(!isVisible)}
                 />
                 <span className="update-text">
-                    Last Updated — {formatDate(new Date('2024-03-04'))}
+                    Last Updated — {formatDate(new Date())}
                 </span>
             </div>
         </div>
