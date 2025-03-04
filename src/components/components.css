@@ -1,4 +1,3 @@
-
 body{
     overflow-x: hidden;
 }
@@ -271,3 +270,53 @@ body{
     
 }
     
+
+
+.last-updated-container {
+    position: fixed;
+    left: -5rem;  /* Changed from right to left */
+    top: 90%;
+    transform: rotate(-90deg) translateX(50%); /* Changed rotation and translation */
+    z-index: 50;
+}
+
+.last-updated-content {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    color: #94a3b8;
+    transition: all 0.3s ease;
+}
+
+.last-updated-content:hover {
+    color: #06b6d4;
+    border-color: #06b6d4;
+    transform: scale(1.01);
+}
+
+.clock-icon {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+@media (max-width: 768px) {
+    .last-updated-container {
+        left: -6rem; /* Changed from right to left */
+    }
+}
+
