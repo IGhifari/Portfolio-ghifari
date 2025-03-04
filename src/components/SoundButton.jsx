@@ -28,7 +28,14 @@ const songs = [
         duration: 242, // 2:51
         color: "#96CEB4"
     },
-
+    {
+        title: "Justin Bieber",
+        artist: "Sorry",
+        cover: "sound3.png",
+        audio: "sound5.mp3",
+        duration: 205, // 2:51
+        color: "#96CEB4"
+    },
 ];
 
 const SoundButton = () => {
