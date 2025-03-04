@@ -72,7 +72,7 @@ const Navbar = () => {
           <IoClose size={35} onClick={toggleMenu} className="cursor-pointer" />
         </div>
 
-        <ul className="flex flex-col items-center gap-6 mt-20">
+        <ul className="flex flex-col items-center gap-6 mt-28">
           <li>
             <Link to="profile" smooth={true} duration={700} onClick={toggleMenu} className="hover:text-cyan-400 cursor-pointer">PROFILE</Link>
           </li>

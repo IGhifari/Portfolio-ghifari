@@ -11,6 +11,7 @@ import Skills from './components/skill'
 import Story from './components/story';
 import ParticlesBackground from './components/particlesBackground';
 import LastUpdated from './components/LastUpdated';
+import SoundButton from './components/SoundButton';
 const App = () => {
     return (
         <div className='tampilan'>
@@ -19,7 +20,7 @@ const App = () => {
             </div>
 
             <LastUpdated />
-
+            <SoundButton />
             <Navbar />
             <section id="profile" className="h-full text-white">
                 <Home/>
