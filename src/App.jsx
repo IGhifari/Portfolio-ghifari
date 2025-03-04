@@ -11,6 +11,7 @@ import Skills from './components/skill'
 import Story from './components/story';
 import ParticlesBackground from './components/particlesBackground';
 import LastUpdated from './components/LastUpdated';
+import ContactMe from './components/contactMe';
 import SoundButton from './components/SoundButton';
 const App = () => {
     return (
@@ -48,7 +49,10 @@ const App = () => {
             <section id="AcademicBackground" className="h-full mt-80 text-white flex items-center justify-center academic-background">
                 <AcademicBackground/>
             </section>
-            <section id="contact" className="h-full text-white mt-64">
+            <section id="contact2" className="h-full text-white mt-">
+                <ContactMe />
+            </section>
+            <section id="contact" className="h-full text-white mt-80">
                 <Contact/>
             </section>
 

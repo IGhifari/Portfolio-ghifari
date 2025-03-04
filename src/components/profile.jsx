@@ -39,9 +39,14 @@ const Home = () => {
                         <button className='px-6 py-3 bg-cyan-500 hover:bg-cyan-600 rounded-lg transition-all duration-300'>
                             Download CV
                         </button>
-                        <button className='px-6 py-3 border border-cyan-500 text-cyan-500 hover:bg-cyan-500 hover:text-white rounded-lg transition-all duration-300'>
+                        <Link 
+                            to="contact2" 
+                            smooth={true} 
+                            duration={500} 
+                            className='px-6 py-3 border border-cyan-500 text-cyan-500 hover:bg-cyan-500 hover:text-white rounded-lg transition-all duration-300 cursor-pointer'
+                        >
                             Contact Me
-                        </button>
+                        </Link>
                     </div>
 
                     <div className='flex gap-4 pt-6'>

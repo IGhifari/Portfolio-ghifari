@@ -61,6 +61,10 @@ const Skills = () =>{
                                     <RiTailwindCssFill size={27}/>
                                     <h1 className='text-1xl'>Tailwind CSS</h1>
                                 </li>
+                                <li  className="flex items-center space-x-2 mt-5 justify-center">
+                                <SiPhp size={25}/>
+                                <h1 className='text-1xl'>PHP</h1>
+                                </li>
                                 <li  className="flex items-center space-x-2 mt-5 pb-5 justify-center">
                                     <FaLaravel size={25}/>
                                     <h1 className='text-1xl'>Laravel</h1>
@@ -89,11 +93,11 @@ const Skills = () =>{
                             
                             <li  className="flex items-center space-x-2 mt-5 justify-center">
                                 <TbBrandMysql size={25}/>
-                                <h1 className='text-1xl'>MYSQL</h1>
+                                <h1 className='text-1xl'>MySQL</h1>
                                 </li>
                                 <li  className="flex items-center space-x-2 mt-5 justify-center">
-                                <SiPhp size={25}/>
-                                <h1 className='text-1xl'>PHP</h1>
+                                <FaQuestion size={25}/>
+                                <h1 className='text-1xl'>Soon</h1>
                                 </li>
                                 <li  className="flex items-center space-x-2 mt-5 justify-center">
                                 <FaQuestion size={25}/>
@@ -136,7 +140,7 @@ const Skills = () =>{
                             <ul className="space-y-4  border-t-2 border-yellow-300 border-b-2 scroll-smooth duration-200">
                                 <li  className="flex items-center space-x-2 mt-5 justify-center">
                                     <AiFillOpenAI size={27}/>
-                                    <h1 className='text-1xl'>Chat GPT</h1>
+                                    <h1 className='text-1xl'>Open AI</h1>
                                 </li>
                                 <li  className="flex items-center space-x-2 mt-5 justify-center">
                                     <DiVisualstudio size={27}/>

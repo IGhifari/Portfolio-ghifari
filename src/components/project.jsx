@@ -8,7 +8,7 @@ const Project = () => {
             title: "Portfolio Website",
             description: "Personal portfolio website built with React and Tailwind CSS",
             image: "portfolio.png", // Add your project image
-            tags: ["React", "Tailwind CSS", "JavaScript"],
+            tags: ["ReactJS", "Tailwind CSS"],
             github: "https://github.com/IGhifari/Portfolio-ghifari",
             live: window.location.href
         },
@@ -24,7 +24,7 @@ const Project = () => {
             title: "Soon...",
             description: "A web-based internship journal system designed to help students record, manage, and track their internship activities efficiently. Built with React JS, Laravel, and MySQL to provide a seamless and organized experience.",
             image: "internship.png", // Add your dashboard image
-            tags: ["React JS", "Laravel", "MYSQL"],
+            tags: ["ReactJS", "Laravel", "MySQL"],
             github: "https://github.com/IGhifari/internship-journal",
             live: "https://your-internship-journal.com"
         },
@@ -41,7 +41,7 @@ const Project = () => {
                         instance
                             .type("My Projects")
                             .pause(750)
-                            .delete(10)
+                            .delete(11)
                             .pause(700)
                             .type("プロジェクト")
                         return instance;
