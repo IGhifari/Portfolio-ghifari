@@ -123,6 +123,7 @@ const ContactMe = () => {
                                     name="name"
                                     value={formData.name}
                                     onChange={handleChange}
+                                    placeholder="Enter yout full name"
                                     className="w-full px-4 py-2 bg-black/30 border border-gray-600 rounded-lg focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 text-white"
                                     required
                                 />
@@ -140,6 +141,7 @@ const ContactMe = () => {
                                     name="email"
                                     value={formData.email}
                                     onChange={handleChange}
+                                    placeholder="Enter your active email address"
                                     className="w-full px-4 py-2 bg-black/30 border border-gray-600 rounded-lg focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 text-white"
                                     required
                                 />
@@ -157,6 +159,7 @@ const ContactMe = () => {
                                     value={formData.message}
                                     onChange={handleChange}
                                     rows="4"
+                                    placeholder="Type your message request here"
                                     className="w-full px-4 py-2 bg-black/30 border border-gray-600 rounded-lg focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 text-white"
                                     required
                                 ></textarea>

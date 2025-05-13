@@ -16,6 +16,7 @@ import { FaQuestion } from "react-icons/fa";
 import { DiVisualstudio } from "react-icons/di";
 import { FaLaravel } from "react-icons/fa";
 import { SiPhp } from "react-icons/si";
+import { SiPostman } from "react-icons/si";
 const Skills = () =>{
     return(
         <div className='mt-10'>
@@ -151,8 +152,8 @@ const Skills = () =>{
                                     <h1 className='text-1xl'>Github</h1>
                                 </li>
                                 <li  className="flex items-center space-x-2 mt-5 justify-center">
-                                <FaQuestion size={25}/>
-                                <h1 className='text-1xl'>Soon</h1>
+                                <SiPostman size={25}/>
+                                <h1 className='text-1xl'>Postman</h1>
                                 </li>
                                 <li  className="flex items-center space-x-2 mt-5 justify-center">
                                 <FaQuestion size={25}/>

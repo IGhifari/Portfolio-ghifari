@@ -21,13 +21,29 @@ const Project = () => {
             live: "https://ighifari.github.io/EcoVoyage-PulauHarapan/views/halamanAwal.html"
         },
         {
-            title: "Soon...",
+            title: "Internship Journal Siswa",
             description: "A web-based internship journal system designed to help students record, manage, and track their internship activities efficiently. Built with React JS, Laravel, and MySQL to provide a seamless and organized experience.",
             image: "internship.png", // Add your dashboard image
             tags: ["ReactJS", "Laravel", "MySQL"],
             github: "https://github.com/IGhifari/internship-journal",
             live: "https://your-internship-journal.com"
         },
+        // {
+        //     title: "Internship Journal Siswa",
+        //     description: "A web-based internship journal system designed to help students record, manage, and track their internship activities efficiently. Built with React JS, Laravel, and MySQL to provide a seamless and organized experience.",
+        //     image: "internship.png", // Add your dashboard image
+        //     tags: ["ReactJS", "Laravel", "MySQL"],
+        //     github: "https://github.com/IGhifari/internship-journal",
+        //     live: "https://your-internship-journal.com"
+        // },
+        // {
+        //     title: "Internship Journal Siswa",
+        //     description: "A web-based internship journal system designed to help students record, manage, and track their internship activities efficiently. Built with React JS, Laravel, and MySQL to provide a seamless and organized experience.",
+        //     image: "internship.png", // Add your dashboard image
+        //     tags: ["ReactJS", "Laravel", "MySQL"],
+        //     github: "https://github.com/IGhifari/internship-journal",
+        //     live: "https://your-internship-journal.com"
+        // }
         
         
     ];
