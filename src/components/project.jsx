@@ -23,27 +23,20 @@ const Project = () => {
         {
             title: "Internship Journal Siswa",
             description: "A web-based internship journal system designed to help students record, manage, and track their internship activities efficiently. Built with React JS, Laravel, and MySQL to provide a seamless and organized experience.",
-            image: "internship.png", // Add your dashboard image
+            image: "internship.png", 
             tags: ["ReactJS", "Laravel", "MySQL"],
             github: "https://github.com/IGhifari/internship-journal",
             live: "https://your-internship-journal.com"
         },
-        // {
-        //     title: "Internship Journal Siswa",
-        //     description: "A web-based internship journal system designed to help students record, manage, and track their internship activities efficiently. Built with React JS, Laravel, and MySQL to provide a seamless and organized experience.",
-        //     image: "internship.png", // Add your dashboard image
-        //     tags: ["ReactJS", "Laravel", "MySQL"],
-        //     github: "https://github.com/IGhifari/internship-journal",
-        //     live: "https://your-internship-journal.com"
-        // },
-        // {
-        //     title: "Internship Journal Siswa",
-        //     description: "A web-based internship journal system designed to help students record, manage, and track their internship activities efficiently. Built with React JS, Laravel, and MySQL to provide a seamless and organized experience.",
-        //     image: "internship.png", // Add your dashboard image
-        //     tags: ["ReactJS", "Laravel", "MySQL"],
-        //     github: "https://github.com/IGhifari/internship-journal",
-        //     live: "https://your-internship-journal.com"
-        // }
+        {
+            title: "A Day At Home",
+            description: "A web-based game created with my friend, designed specifically for deaf children. It aims to support learning through engaging visual interactions and a fun, accessible experience.",
+            image: "seharidirumah.png",  
+            tags: ["ReactJS", "Tailwind CSS"],
+            github: "https://github.com/IGhifari/Project-Game-Clevio-SLB",
+            live: "https://bendaditempatku.netlify.app/"
+        },
+
         
         
     ];

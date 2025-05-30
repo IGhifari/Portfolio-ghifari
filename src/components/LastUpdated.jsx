@@ -3,7 +3,7 @@ import { FaClock } from 'react-icons/fa';
 
 const LastUpdated = () => {
     const [isVisible, setIsVisible] = useState(false);
-    const [lastUpdated, setLastUpdated] = useState('2025-05-13'); // default value
+    const [lastUpdated, setLastUpdated] = useState('2025-05-30'); // default value
 
     const formatDate = (dateString) => {
         const date = new Date(dateString);

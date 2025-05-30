@@ -123,7 +123,7 @@ const ContactMe = () => {
                                     name="name"
                                     value={formData.name}
                                     onChange={handleChange}
-                                    placeholder="Enter yout full name"
+                                    placeholder="Enter your full name"
                                     className="w-full px-4 py-2 bg-black/30 border border-gray-600 rounded-lg focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 text-white"
                                     required
                                 />
