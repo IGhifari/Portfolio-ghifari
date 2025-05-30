@@ -36,6 +36,15 @@ const Project = () => {
             github: "https://github.com/IGhifari/Project-Game-Clevio-SLB",
             live: "https://bendaditempatku.netlify.app/"
         },
+        {
+            title: "Desaku",
+            description: "Desaku is a web-based platform specifically designed for village administration. It helps manage and organize data on families living in the village, making population and village information easier to access and maintain digitally.",
+            image: "desaku.png",  
+            tags: ["ReactJS", "ExpressJS", "Prisma", "Tailwind CSS", "MySQL"],
+            github: "https://github.com/IGhifari/Website-DesaKita",
+            live: "https://desaku.com"
+        }
+
 
         
         
